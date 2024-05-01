@@ -16,7 +16,7 @@ let y: null = null;
 
 //array
 let friends: string[] = ["rachel", "tsetka"];
-friends.push('hello');
+friends.push("hello");
 
 let eligibleList: number[] = [1, 2];
 
@@ -26,4 +26,5 @@ eligibleList.push(4);
 
 let coordinate: [number, number] = [1, 5];
 let ageName: [number, string] = [50, "Mr. X"];
+
 ageName[0] = 403;

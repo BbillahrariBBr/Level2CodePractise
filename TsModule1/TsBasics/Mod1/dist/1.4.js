@@ -13,7 +13,7 @@ let y = null;
 //non premitive
 //array
 let friends = ["rachel", "tsetka"];
-friends.push('hello');
+friends.push("hello");
 let eligibleList = [1, 2];
 eligibleList.push(4);
 // tuple -- > array --> oder --> type of value
