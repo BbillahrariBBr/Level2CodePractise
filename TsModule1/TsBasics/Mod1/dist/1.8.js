@@ -11,7 +11,7 @@
         cno: '0123465233',
         address: "Uganda"
     };
-    const { cno, name: { middleName } } = user;
+    const { cno, name: { middleName: midName } } = user;
     // array destructuring
     const myFriends = ["Charli", "Joye", "Ross", "Rachel", "Monica"];
     const [, , bestF, ...rest] = myFriends;
