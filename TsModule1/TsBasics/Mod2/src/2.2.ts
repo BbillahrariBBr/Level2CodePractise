@@ -17,7 +17,7 @@
     roll: string;
   }
 
-  const user1: UserWithRoll1 = {
+  const user1: UserWithRoll2 = {
     name: "Baki",
     age: 29,
     roll: "Manager",
@@ -39,7 +39,7 @@
   }
   const add: Add1 = (num1, num2) => num1 + num2;
 
-  const user1: User2 = {
+  const user2: User2 = {
     name: "Baki",
     age: 29,
   };
