@@ -19,6 +19,26 @@
             age: 100,
         },
     ];
+    const user2 = [
+        {
+            name: "Mezba",
+            age: 100,
+        },
+        {
+            name: "Jhankar",
+            age: 100,
+        },
+    ];
+    const user1 = [
+        {
+            name: "Mezba",
+            age: 100,
+        },
+        {
+            name: "Jhankar",
+            age: 100,
+        },
+    ];
     // const human:[string,string]  =['Mr. X', 'Mr. Y']
     const human = ["Mr. X", "Mr. Y"];
     const UserWithId = [

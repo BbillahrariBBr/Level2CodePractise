@@ -25,6 +25,37 @@
       age: 100,
     },
   ];
+  type User = {
+    name: string;
+    age: number;
+  };
+
+  const user2: GenericArray<User> = [
+    {
+      name: "Mezba",
+      age: 100,
+    },
+    {
+      name: "Jhankar",
+      age: 100,
+    },
+  ];
+
+  interface User1 {
+    name: string;
+    age: number;
+  }
+
+  const user1: GenericArray<User1> = [
+    {
+      name: "Mezba",
+      age: 100,
+    },
+    {
+      name: "Jhankar",
+      age: 100,
+    },
+  ];
 
   //generic tuple
   type GenericTuple<X, Y> = [X, Y];
