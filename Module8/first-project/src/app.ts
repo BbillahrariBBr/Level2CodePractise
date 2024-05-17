@@ -9,9 +9,8 @@ app.use(cors());
 
 app.get('/', (req: Request, res: Response) => {
   const a = 10;
-  const b = 10;
 
-  res.send(a, b);
+  res.send(a);
   // let b = 20;
 });
 
