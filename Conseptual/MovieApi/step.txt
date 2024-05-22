@@ -1,0 +1,35 @@
+project setup
+step-1
+npm init -y
+step -2 
+install -- express --> npm install express --save
+		-- typescript --> npm install typescript --save-dev (for dev) 
+		-- mongoose --> npm install mongoose --save
+		-- dotenv --> npm i dotenv (for environment)
+		-- cors --> npm i cors
+
+step 3--
+need tsc config -->  tsc --init
+need type nodes --> npm install --save-dev @types/node
+need type express --> npm install --save-dev @types/express
+
+
+step 4 -- install nodemon for live js change
+npm install nodemon --save-dev (run nodemon --> npx nodemon ./dist/app.js) 
+-- change tsc -- tsc -w
+
+both combined --> npm i ts-node-dev --save-dev (tsnd --respawn server.ts) --> for .js file eraanor jnno
+
+--> step4 
+types eslint --.> npm install --save-dev eslint @eslint/js typescript typescript-eslint ( then need eslint.config.mjs  in  root folder) 
+npm install --save-dev eslint @eslint/js @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript globals
+npm install --save-dev eslint @eslint/js @typescript-eslint/parser @typescript-eslint/eslint-plugin globals
+npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+
+
+--> eslint error check npx eslint . / src
+
+for slug
+npm i date-fns
+npm i slugify
+
